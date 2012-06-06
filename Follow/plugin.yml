@@ -1,0 +1,18 @@
+name: Follow
+main: me.zathrasnottheone.follow.Follow
+version: 0.1
+description: >
+             Follow.  Keep an eye on a player.
+commands: 
+   follow:
+      description: Follow a player.
+      usage: /follow [player] [distance]
+      permission: follow.player
+      permission-message: You aren't permitted to follow another player.
+   unfollow:
+      description: Stop following a player.
+      usage: /unfollow
+      permission: follow.player
+      permission-message: 
+      
+      
